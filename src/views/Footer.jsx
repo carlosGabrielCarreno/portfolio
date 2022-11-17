@@ -10,16 +10,25 @@ const Container = styled.div`
   justify-content: center;
 `;
 
-const ContainerIcon = styled.div`
+const ContainerIcon = styled.a`
   margin: 1rem;
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
 `;
 export const Footer = () => {
   return (
     <Container>
-      <ContainerIcon>
+      <ContainerIcon
+        href="https://github.com/gabrielCarrenio"
+        target={"_blank"}
+      >
         <GitHubIcon />
       </ContainerIcon>
-      <ContainerIcon>
+      <ContainerIcon
+        href="https://www.linkedin.com/in/gabrielcarrenio/"
+        target={"_blank"}
+      >
         <LinkedInIcon />
       </ContainerIcon>
     </Container>

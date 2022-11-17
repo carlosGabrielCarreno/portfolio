@@ -6,8 +6,8 @@ const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* background-color: blueviolet; */
-  height: 10%;
+  /* border: solid red; */
+  height: 8vh;
   width: 90%;
   margin: 0 auto;
 `;
