@@ -1,6 +1,5 @@
 import styled from 'styled-components';
-import { Button } from '../components/Button';
-import { Project } from '../components/Project';
+import { Button, ButtonDownload, Project } from '../components';
 
 const Container = styled.div`
   width: 90%;
@@ -33,7 +32,7 @@ export const Main = () => {
         <Title>Hey, I'm Gabriel Carreño</Title>
         <Text>I'm Full Stack Developer and Computer Science student.</Text>
         <ContainerButtons>
-          <Button name={'Download CV'} />
+          <ButtonDownload />
           <Button name={'Contact me'} />
         </ContainerButtons>
       </ContainerInfo>
