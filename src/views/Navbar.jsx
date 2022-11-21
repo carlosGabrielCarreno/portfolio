@@ -1,6 +1,6 @@
-import CodeIcon from "@mui/icons-material/Code";
-import Brightness4Icon from "@mui/icons-material/Brightness4";
-import styled from "styled-components";
+import CodeIcon from '@mui/icons-material/Code';
+import Brightness4Icon from '@mui/icons-material/Brightness4';
+import styled from 'styled-components';
 
 const Container = styled.div`
   display: flex;
@@ -13,14 +13,14 @@ const Container = styled.div`
 `;
 
 const ContainerLogo = styled.div`
-  color: #000;
+  color: #fff;
   display: flex;
   align-items: center;
   justify-content: space-between;
 `;
 
 const ContainerButtons = styled.div`
-  color: #000;
+  color: #fff;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -30,6 +30,7 @@ const Text = styled.p`
   font-size: 14px;
   margin: 0 0.3rem;
   padding: 0;
+  cursor: pointer;
 `;
 
 export const Navbar = () => {
@@ -40,8 +41,7 @@ export const Navbar = () => {
         <Text>Full Stack Developer</Text>
       </ContainerLogo>
       <ContainerButtons>
-        <Text>About me</Text>
-        <Brightness4Icon />
+        <Text>Contact me</Text>
       </ContainerButtons>
     </Container>
   );

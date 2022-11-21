@@ -1,6 +1,6 @@
-import GitHubIcon from "@mui/icons-material/GitHub";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import styled from "styled-components";
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import styled from 'styled-components';
 
 const Container = styled.div`
   width: 90%;
@@ -13,7 +13,7 @@ const Container = styled.div`
 const ContainerIcon = styled.a`
   margin: 1rem;
   text-decoration: none;
-  color: #000;
+  color: #fff;
   cursor: pointer;
 `;
 export const Footer = () => {
@@ -21,13 +21,13 @@ export const Footer = () => {
     <Container>
       <ContainerIcon
         href="https://github.com/gabrielCarrenio"
-        target={"_blank"}
+        target={'_blank'}
       >
         <GitHubIcon />
       </ContainerIcon>
       <ContainerIcon
         href="https://www.linkedin.com/in/gabrielcarrenio/"
-        target={"_blank"}
+        target={'_blank'}
       >
         <LinkedInIcon />
       </ContainerIcon>

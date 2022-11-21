@@ -5,7 +5,7 @@ import { Button } from './Button';
 const Container = styled.div`
   /* border: solid #533483; */
   width: 100%;
-  border: solid red;
+  /* border: solid red; */
   margin: 0.5rem 0;
 `;
 

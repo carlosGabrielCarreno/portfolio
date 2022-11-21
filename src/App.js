@@ -1,18 +1,18 @@
-import styled from "styled-components";
-import { Footer, Main, Navbar } from "./views";
+import styled from 'styled-components';
+import { Form } from './components';
+import { Footer, Main, Navbar } from './views';
 
 const Container = styled.div`
   position: absolute;
-  background: rgb(92, 184, 228);
+  background: rgb(131, 58, 180);
   background: linear-gradient(
-    180deg,
-    rgba(92, 184, 228, 0.835171568627451) 0%,
-    rgba(135, 88, 255, 0.8995973389355743) 50%,
-    rgba(24, 24, 24, 0.7931547619047619) 100%
+    202deg,
+    rgba(131, 58, 180, 0.7693277139957546) 0%,
+    rgba(159, 115, 171, 1) 50%,
+    rgba(63, 59, 108, 0.9205882181974352) 100%
   );
   width: 100vw;
-  /* height: 100vh; */
-  font-family: "Ubuntu", sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 `;
 
 export const App = () => {
@@ -20,6 +20,7 @@ export const App = () => {
     <Container>
       <Navbar />
       <Main />
+      <Form />
       <Footer />
     </Container>
   );

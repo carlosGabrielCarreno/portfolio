@@ -10,8 +10,12 @@ const Container = styled.div`
 
 const ContainerInfo = styled.div``;
 
-const Title = styled.h1``;
-const Text = styled.p``;
+const Title = styled.h1`
+  color: #fff;
+`;
+const Text = styled.p`
+  color: #fff;
+`;
 
 const ContainerButtons = styled.div`
   display: flex;
@@ -33,7 +37,6 @@ export const Main = () => {
         <Text>I'm Full Stack Developer and Computer Science student.</Text>
         <ContainerButtons>
           <ButtonDownload />
-          <Button name={'Contact me'} />
         </ContainerButtons>
       </ContainerInfo>
       <Project />

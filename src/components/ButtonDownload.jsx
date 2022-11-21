@@ -12,7 +12,8 @@ const Btn = styled.a`
   );
   border: 0;
   cursor: pointer;
-  color: #000;
+  color: #fff;
+
   text-decoration: none;
 `;
 export const ButtonDownload = () => {

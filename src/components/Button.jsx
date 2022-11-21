@@ -11,6 +11,7 @@ const Btn = styled.button`
   );
   border: 0;
   cursor: pointer;
+  color: #fff;
 `;
 
 export const Button = ({ name }) => {
