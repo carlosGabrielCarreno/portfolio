@@ -19,6 +19,8 @@ const Input = styled.input`
 
 const TextArea = styled.textarea`
   /* width: 100%; */
+  height: 12vh;
+  /* border: solid red; */
 `;
 
 export const Form = () => {
@@ -26,7 +28,7 @@ export const Form = () => {
     <FormContainer>
       <Input type="text" placeholder="name" />
       <Input type="text" placeholder="email" />
-      <textarea type="text" placeholder="message..." />
+      <TextArea type="text" placeholder="message..." />
       <Button name={'Submit'} />
     </FormContainer>
   );
