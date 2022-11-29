@@ -1,3 +1,4 @@
+import { Navigate } from 'react-router-dom';
 import styled from 'styled-components';
 
 const Btn = styled.button`
@@ -15,5 +16,9 @@ const Btn = styled.button`
 `;
 
 export const Button = ({ name }) => {
-  return <Btn>{name}</Btn>;
+  const handleNavigate = () => {
+    Navigate('https://google.com');
+  };
+
+  return <Btn onClick={handleNavigate}>{name}</Btn>;
 };
