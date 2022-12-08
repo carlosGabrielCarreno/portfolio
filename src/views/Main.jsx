@@ -1,4 +1,7 @@
 import styled from 'styled-components';
+import countriesDark from '../assets/countriesDark.png';
+import projectIn from '../assets/PI.png';
+import cinemaApp from '../assets/cinema-app.png';
 import { Button, ButtonDownload, Project } from '../components';
 
 const Container = styled.div`
@@ -29,6 +32,16 @@ const ProjectsContainer = styled.div`
   border: solid green;
 `;
 
+const ContainerProjects = styled.div`
+  width: 100%;
+  height: 100%;
+  display: grid;
+  gap: 2rem;
+  grid-auto-rows: 29rem;
+  grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr));
+  margin: 1rem 0;
+`;
+
 export const Main = () => {
   return (
     <Container>
@@ -39,9 +52,11 @@ export const Main = () => {
           <ButtonDownload />
         </ContainerButtons>
       </ContainerInfo>
-      <Project />
-      <Project />
-      <Project />
+      <ContainerProjects>
+        <Project img={projectIn} />
+        <Project img={countriesDark} />
+        <Project img={cinemaApp} />
+      </ContainerProjects>
     </Container>
   );
 };
