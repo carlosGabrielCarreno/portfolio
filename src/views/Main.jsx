@@ -38,7 +38,7 @@ const ContainerProjects = styled.div`
   display: grid;
   gap: 2rem;
   grid-auto-rows: 29rem;
-  grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr));
   margin: 1rem 0;
 `;
 
@@ -53,9 +53,21 @@ export const Main = () => {
         </ContainerButtons>
       </ContainerInfo>
       <ContainerProjects>
-        <Project img={projectIn} />
-        <Project img={countriesDark} />
-        <Project img={cinemaApp} />
+        <Project
+          img={projectIn}
+          linkDeploy={'https://github.com/gabrielCarrenio/PI-Foods'}
+          linkLive={'https://pi-foods-chi.vercel.app'}
+        />
+        <Project
+          img={countriesDark}
+          linkDeploy={'https://github.com/gabrielCarrenio/Countries-app'}
+          linkLive={'https://countri-app-react-js.netlify.app'}
+        />
+        <Project
+          img={cinemaApp}
+          linkDeploy={'https://github.com/gabrielCarrenio/cinema-app'}
+          linkLive={'https://cinema-app-ochre.vercel.app'}
+        />
       </ContainerProjects>
     </Container>
   );

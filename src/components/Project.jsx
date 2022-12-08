@@ -23,7 +23,7 @@ const ContainerButtons = styled.div`
 `;
 
 export const Project = (props) => {
-  const { img } = props;
+  const { img, linkDeploy, linkLive } = props;
   return (
     <Container>
       <Image src={img} alt="countries photo" />

@@ -4,6 +4,7 @@ import styled from 'styled-components';
 const Btn = styled.button`
   padding: 15px 10px;
   margin: 0;
+  max-width: 470px;
   background: rgb(83, 52, 131);
   background: linear-gradient(
     146deg,

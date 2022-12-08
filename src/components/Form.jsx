@@ -17,12 +17,14 @@ const Input = styled.input`
   /* width: 100%; */
   padding: 15px 10px;
   border: 0;
+  max-width: 455px;
 `;
 
 const TextArea = styled.textarea`
   /* width: 100%; */
   height: 12vh;
   /* border: solid red; */
+  max-width: 468px;
 `;
 
 export const Form = () => {
