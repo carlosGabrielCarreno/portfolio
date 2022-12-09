@@ -1,7 +1,6 @@
-import { Navigate } from 'react-router-dom';
 import styled from 'styled-components';
 
-const Btn = styled.button`
+const Btn = styled.a`
   padding: 15px 10px;
   margin: 0;
   max-width: 470px;
@@ -16,10 +15,10 @@ const Btn = styled.button`
   color: #fff;
 `;
 
-export const Button = ({ name }) => {
-  const handleNavigate = () => {
-    Navigate('https://google.com');
-  };
-
-  return <Btn onClick={handleNavigate}>{name}</Btn>;
+export const Button = ({ name, url }) => {
+  return (
+    <Btn href={url} target="_blank">
+      {name}
+    </Btn>
+  );
 };

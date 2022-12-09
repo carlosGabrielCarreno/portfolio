@@ -23,17 +23,14 @@ const ContainerButtons = styled.div`
 `;
 
 export const Project = (props) => {
-  const { img, linkDeploy, linkLive } = props;
+  const { img, linkDeploy, linkLive, text } = props;
   return (
     <Container>
       <Image src={img} alt="countries photo" />
-      <Text>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim animi
-        voluptatibus et tempora veniam natus quod maiores tenetur iste quasi?
-      </Text>
+      <Text>{text}</Text>
       <ContainerButtons>
-        <Button name={'Deploy'} />
-        <Button name={'Repository'} />
+        <Button name={'Deploy'} url={linkLive} />
+        <Button name={'Repository'} url={linkDeploy} />
       </ContainerButtons>
     </Container>
   );
