@@ -6,9 +6,9 @@ import { ButtonDownload, Project } from '../components';
 
 const Container = styled.div`
   width: 90%;
-  margin: 0 auto;
+  margin: 3rem auto 5rem auto;
   height: 80%;
-  /* position: relative; */
+  /* border: solid red; */
 `;
 
 const ContainerInfo = styled.div``;
@@ -46,7 +46,7 @@ export const Main = () => {
   return (
     <Container>
       <ContainerInfo>
-        <Title>Hey, I'm Gabriel Carreño</Title>
+        <Title>Hey, I'm Carlos Gabriel Carreño</Title>
         <Text>I'm Full Stack Developer and Computer Science student.</Text>
         <ContainerButtons>
           <ButtonDownload />

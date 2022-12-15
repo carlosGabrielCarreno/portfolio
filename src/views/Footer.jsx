@@ -20,13 +20,13 @@ export const Footer = () => {
   return (
     <Container>
       <ContainerIcon
-        href="https://github.com/gabrielCarrenio"
+        href="https://github.com/CarlosGabrielCarreno"
         target={'_blank'}
       >
         <GitHubIcon />
       </ContainerIcon>
       <ContainerIcon
-        href="https://www.linkedin.com/in/gabrielcarrenio/"
+        href="https://www.linkedin.com/in/carlosgabrielcarreno/"
         target={'_blank'}
       >
         <LinkedInIcon />
