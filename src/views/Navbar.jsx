@@ -31,6 +31,10 @@ const Text = styled.p`
   margin: 0 0.3rem;
   padding: 0;
   cursor: pointer;
+  @media (min-width: 600px) {
+    font-size: 16px;
+    font-weight: 600;
+  }
 `;
 
 export const Navbar = () => {
