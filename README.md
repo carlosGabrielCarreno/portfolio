@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-[live](https://portofolio-gabriel-carrenio.netlify.app/).
+[live](https://portfolio-carlos-gabriel-carreno.netlify.app/).
 
 ## Available Scripts
 
