@@ -1,6 +1,4 @@
-import { useRef } from 'react';
 import styled from 'styled-components';
-import emailjs from 'emailjs-com';
 
 const FormContainer = styled.form`
   width: 90%;
@@ -42,23 +40,15 @@ const Button = styled.button`
 `;
 
 export const Form = () => {
-  const form = useRef();
-  const sendEmail = (event) => {
-    event.preventDefault();
-    emailjs.send(
-      'service_oojog7a',
-      'template_h88fllp',
-      form.current,
-      'lfEj21xN0KYs5jFnn'
-    );
-  };
-
   return (
-    <FormContainer ref={form} onSubmit={sendEmail}>
+    <FormContainer
+      action={`https://formsubmit.co/${process.env.REACT_APP_EMAIL}`}
+      method="post"
+    >
       <Input type="text" placeholder="name" name="user_name" />
       <Input type="text" placeholder="email" name="user_email" />
       <TextArea placeholder="message..." name="user_message" />
-      <Button>Submit</Button>
+      <Button type="submit">Submit</Button>
     </FormContainer>
   );
 };
