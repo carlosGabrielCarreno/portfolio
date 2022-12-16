@@ -4,12 +4,12 @@ import { Footer, Main, Navbar } from './views';
 
 const Container = styled.div`
   position: absolute;
-  background: rgb(131, 58, 180);
+  background: rgb(0, 11, 73);
   background: linear-gradient(
-    202deg,
-    rgba(131, 58, 180, 0.7693277139957546) 0%,
-    rgba(159, 115, 171, 1) 50%,
-    rgba(63, 59, 108, 0.9205882181974352) 100%
+    315deg,
+    rgb(0 11 73) 0%,
+    rgb(4 21 98 / 86%) 68%,
+    rgba(38, 102, 207, 0.9654061453683036) 100%
   );
   width: 100vw;
   font-family: 'Ubuntu', sans-serif;
