@@ -6,7 +6,7 @@ import { ButtonDownload, Project, Sidebar } from '../components';
 
 const Container = styled.div`
   width: 90%;
-  margin: 3rem auto 5rem auto;
+  margin: 3rem auto 0 auto;
   height: 80%;
   /* border: solid red; */
 `;
