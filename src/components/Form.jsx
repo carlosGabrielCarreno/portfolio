@@ -108,10 +108,7 @@ export const Form = () => {
   };
 
   return (
-    <FormContainer
-      action={`https://formsubmit.co/${process.env.REACT_APP_EMAIL}`}
-      method="post"
-    >
+    <FormContainer name="contact" netlify>
       <Input
         onChange={handleChange}
         value={values.name}
