@@ -85,6 +85,10 @@ export const Form = () => {
   const handleChange = (event) => {
     console.log(event.target.value);
 
+    if (event.target.name === 'email') {
+      validateEmail(event.target.value);
+    }
+
     setValues({
       ...values,
       [event.target.name]: event.target.value,
@@ -100,16 +104,7 @@ export const Form = () => {
       setBtnActive(false);
     }
 
-    validateEmail(values.email);
-  };
-
-  const handleSubmitForm = () => {
-    setValues({
-      ...values,
-      name: '',
-      email: '',
-      message: '',
-    });
+    console.log(isValidateEmail);
   };
 
   return (
@@ -150,7 +145,6 @@ export const Form = () => {
       <button
         type="submit"
         disabled={!btnActive}
-        onClick={handleSubmitForm}
         className={`button ${btnActive ? 'active' : ''}`}
       >
         Submit
