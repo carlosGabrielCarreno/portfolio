@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import countriesDark from '../assets/countriesDark.png';
 import projectIn from '../assets/PI.png';
 import cinemaApp from '../assets/cinema-app.png';
-import { ButtonDownload, Project } from '../components';
+import { ButtonDownload, Project, Sidebar } from '../components';
 
 const Container = styled.div`
   width: 90%;
@@ -18,6 +18,7 @@ const Title = styled.h1`
 `;
 const Text = styled.p`
   color: #fff;
+  font-weight: 500;
 `;
 
 const ContainerButtons = styled.div`
@@ -42,6 +43,15 @@ const ContainerProjects = styled.div`
   margin: 1rem 0;
 `;
 
+const ContainerStackTech = styled.div`
+  background: linear-gradient(
+    162deg,
+    rgb(0 29 110 / 34%) 0%,
+    rgb(3 4 94 / 16%) 100%
+  );
+  border-radius: 5px;
+`;
+
 export const Main = () => {
   return (
     <Container>
@@ -52,6 +62,10 @@ export const Main = () => {
           <ButtonDownload />
         </ContainerButtons>
       </ContainerInfo>
+      <ContainerStackTech>
+        <Text>Technologies I work with:</Text>
+        <Sidebar />
+      </ContainerStackTech>
       <ContainerProjects>
         <Project
           img={projectIn}

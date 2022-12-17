@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Form, Sidebar } from './components';
+import { Form } from './components';
 import { Footer, Main, Navbar } from './views';
 
 const Container = styled.div`
@@ -19,7 +19,6 @@ export const App = () => {
   return (
     <Container>
       <Navbar />
-      <Sidebar />
       <Main />
       <Form />
       <Footer />
