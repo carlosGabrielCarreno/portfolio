@@ -15,7 +15,8 @@ const ContainerTech = styled.aside`
   flex-wrap: wrap;
   justify-content: space-evenly;
   max-width: 100%;
-  margin: 2rem auto;
+  margin: 0 auto;
+  gap: 2rem;
   color: #fff;
   font-weight: 500;
   font-size: 12px;

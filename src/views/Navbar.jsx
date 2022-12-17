@@ -10,6 +10,11 @@ const Container = styled.div`
   height: 8vh;
   width: 90%;
   margin: 0 auto;
+  & a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+  }
 `;
 
 const ContainerLogo = styled.div`
@@ -45,7 +50,7 @@ export const Navbar = () => {
         <Text>Full Stack Developer</Text>
       </ContainerLogo>
       <ContainerButtons>
-        <Text>Contact me</Text>
+        <a href="#email">Contact me</a>
       </ContainerButtons>
     </Container>
   );

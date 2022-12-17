@@ -38,9 +38,10 @@ const ContainerProjects = styled.div`
   height: 100%;
   display: grid;
   gap: 2rem;
-  grid-auto-rows: 29rem;
+  grid-auto-rows: 33rem;
   grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr));
   margin: 1rem 0;
+  overflow: hidden;
 `;
 
 const ContainerStackTech = styled.div`
@@ -50,6 +51,8 @@ const ContainerStackTech = styled.div`
     rgb(3 4 94 / 16%) 100%
   );
   border-radius: 5px;
+  padding: 0.5rem;
+  margin: 1rem 0;
 `;
 
 export const Main = () => {
@@ -66,6 +69,7 @@ export const Main = () => {
         <Text>Technologies I work with:</Text>
         <Sidebar />
       </ContainerStackTech>
+      <Text>Projects I worked on:</Text>
       <ContainerProjects>
         <Project
           img={projectIn}

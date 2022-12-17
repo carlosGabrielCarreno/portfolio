@@ -50,7 +50,7 @@ export const Form = () => {
       action={`https://formsubmit.co/${process.env.REACT_APP_EMAIL}`}
       method="post"
     >
-      <Input type="text" placeholder="name" name="user_name" />
+      <Input id="email" type="text" placeholder="name" name="user_name" />
       <Input type="text" placeholder="email" name="user_email" />
       <TextArea placeholder="message..." name="user_message" />
       <Button type="submit">Submit</Button>

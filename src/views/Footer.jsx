@@ -16,21 +16,28 @@ const ContainerIcon = styled.a`
   color: #fff;
   cursor: pointer;
 `;
+
+const Hr = styled.hr`
+  width: 90%;
+`;
 export const Footer = () => {
   return (
-    <Container>
-      <ContainerIcon
-        href="https://github.com/CarlosGabrielCarreno"
-        target={'_blank'}
-      >
-        <GitHubIcon />
-      </ContainerIcon>
-      <ContainerIcon
-        href="https://www.linkedin.com/in/carlosgabrielcarreno/"
-        target={'_blank'}
-      >
-        <LinkedInIcon />
-      </ContainerIcon>
-    </Container>
+    <>
+      <Hr />
+      <Container>
+        <ContainerIcon
+          href="https://github.com/CarlosGabrielCarreno"
+          target={'_blank'}
+        >
+          <GitHubIcon />
+        </ContainerIcon>
+        <ContainerIcon
+          href="https://www.linkedin.com/in/carlosgabrielcarreno/"
+          target={'_blank'}
+        >
+          <LinkedInIcon />
+        </ContainerIcon>
+      </Container>
+    </>
   );
 };
