@@ -10,6 +10,14 @@ const Btn = styled.a`
     rgba(0, 29, 110, 1) 0%,
     rgba(3, 4, 94, 0.8925770137156425) 100%
   );
+  :hover {
+    transition-delay: 3s;
+    background: linear-gradient(
+      162deg,
+      rgb(0 29 110 / 57%) 0%,
+      rgb(3 4 94 / 55%) 100%
+    );
+  }
   border: 0;
   text-decoration: none;
   border-radius: 5px;

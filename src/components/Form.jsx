@@ -20,6 +20,7 @@ const FormContainer = styled.form`
     text-decoration: none;
     color: #fff;
     font-weight: 500;
+
     &.active {
       cursor: pointer;
       background: rgb(0, 29, 110);
@@ -28,6 +29,14 @@ const FormContainer = styled.form`
         rgba(0, 29, 110, 1) 0%,
         rgba(3, 4, 94, 0.8925770137156425) 100%
       );
+      :hover {
+        transition: all 0.4s ease-in-out;
+        background: linear-gradient(
+          162deg,
+          rgb(0 29 110 / 57%) 0%,
+          rgb(3 4 94 / 55%) 100%
+        );
+      }
     }
   }
   & span {

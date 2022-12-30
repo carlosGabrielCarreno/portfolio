@@ -29,13 +29,19 @@ const ContainerButtons = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  & .contact-me {
+    :hover {
+      transition: all 0.4s ease-in-out;
+      color: #ffffff94;
+    }
+  }
 `;
 
 const Text = styled.p`
   font-size: 14px;
   margin: 0 0.3rem;
   padding: 0;
-  cursor: pointer;
+  cursor: default;
   @media (min-width: 600px) {
     font-size: 16px;
     font-weight: 600;
@@ -50,7 +56,9 @@ export const Navbar = () => {
         <Text>Full Stack Developer</Text>
       </ContainerLogo>
       <ContainerButtons>
-        <a href="#email">Contact me</a>
+        <a className="contact-me" href="#email">
+          Contact me
+        </a>
       </ContainerButtons>
     </Container>
   );
