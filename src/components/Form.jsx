@@ -14,7 +14,7 @@ const FormContainer = styled.form`
     padding: 15px 10px;
     border-radius: 5px;
     margin: 0;
-    max-width: 470px;
+    max-width: 475px;
     transition: all 0.6s ease;
     border: 0;
     text-decoration: none;

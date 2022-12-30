@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import pdf from '../assets/MYCVTEST.pdf';
+import pdf from '../assets/Carlos_Gabriel_Carreño_CV.pdf';
 
 const Btn = styled.a`
   padding: 15px 10px;
