@@ -31,7 +31,7 @@ const ContainerButtons = styled.div`
   justify-content: space-between;
   & .contact-me {
     :hover {
-      transition: all 0.4s ease-in-out;
+      //transition: all 0.4s ease-in-out;
       color: #ffffff94;
     }
   }
