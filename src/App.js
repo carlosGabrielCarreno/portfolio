@@ -12,7 +12,7 @@ const Container = styled.div`
     rgb(38 102 207 / 87%) 100%
   );
   width: 100vw;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Karla", system-ui;
 `;
 
 export const App = () => {

@@ -22,6 +22,7 @@ html {
 
 body {
   margin: 0;
+  
 }
 
 /**
@@ -62,7 +63,9 @@ hr {
  */
 
 pre {
-  font-family: monospace, monospace; /* 1 */
+  /* font-family: monospace, monospace; 1 */
+  font-family: "Karla", system-ui;
+
   font-size: 1em; /* 2 */
 }
 
@@ -105,7 +108,8 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace; /* 1 */
+  font-family: "Karla", system-ui;
+
   font-size: 1em; /* 2 */
 }
 

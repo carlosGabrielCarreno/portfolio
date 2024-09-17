@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const Btn = styled.a`
-  padding: 15px 10px;
+  padding:  10px;
   margin: 0;
   max-width: 470px;
   background: rgb(0, 29, 110);
@@ -20,9 +20,10 @@ const Btn = styled.a`
   }
   border: 0;
   text-decoration: none;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   cursor: pointer;
   color: #fff;
+  font-size: 14px;
 `;
 
 export const Button = ({ name, url }) => {

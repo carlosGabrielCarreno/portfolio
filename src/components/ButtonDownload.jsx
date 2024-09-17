@@ -20,7 +20,7 @@ const Btn = styled.a`
   }
   border: 0;
   text-decoration: none;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   cursor: pointer;
   color: #fff;
 

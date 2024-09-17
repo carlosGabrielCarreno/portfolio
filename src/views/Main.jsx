@@ -34,15 +34,24 @@ const ProjectsContainer = styled.div`
 `;
 
 const ContainerProjects = styled.div`
+/* border: solid yellow; */
+/* padding: 1rem 0; */
   width: 100%;
   height: 100%;
-  display: grid;
-  gap: 2rem;
+  display: flex;
+  gap: 1rem;
+  /* display: grid;
+  gap: 1rem;
   grid-auto-rows: 33rem;
   grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr));
-  margin: 1rem 0;
-  overflow: hidden;
+  margin:1rem 0;
+  overflow: hidden; */
+  @media (max-width: 870px) {
+   flex-direction: column;
+  }
 `;
+
+
 
 const ContainerStackTech = styled.div`
   background: linear-gradient(
@@ -50,7 +59,7 @@ const ContainerStackTech = styled.div`
     rgb(0 29 110 / 34%) 0%,
     rgb(3 4 94 / 16%) 100%
   );
-  border-radius: 5px;
+  /* border-radius: 5px; */
   padding: 0.5rem;
   margin: 1rem 0;
 `;

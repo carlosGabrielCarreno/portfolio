@@ -12,7 +12,7 @@ const FormContainer = styled.form`
   margin: 2rem auto;
   & .button {
     padding: 15px 10px;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     margin: 0;
     max-width: 475px;
     transition: all 0.6s ease;
@@ -45,7 +45,7 @@ const FormContainer = styled.form`
       color: #fff;
       font-size: 12px;
       padding: 8px 4px;
-      border-radius: 5px;
+      /* border-radius: 5px; */
       background: red;
       display: flex;
       justify-content: space-between;
@@ -59,7 +59,7 @@ const Input = styled.input`
   padding: 15px 10px;
   border: 0;
   max-width: 455px;
-  border-radius: 5px;
+  /* border-radius: 5px; */
 `;
 
 const TextArea = styled.textarea`
@@ -67,7 +67,7 @@ const TextArea = styled.textarea`
   height: 12vh;
   /* border: solid red; */
   max-width: 468px;
-  border-radius: 5px;
+  /* border-radius: 5px; */
 `;
 
 export const Form = () => {
